@@ -5,7 +5,7 @@ link https://github.com/Tu276/nathan_kirimi/deployments/activity_log?environment
 HTML website Friday June 1O 2020
 feel free to add your name ... please do something of course **
 ## Description
-This is my first IP project i was tasked to create a portofolio landing page    
+This is my first IP project i was tasked to create a Portfolio landing page    
 
 ## Known Bugs
 There are no bugs that i know of  
