@@ -26,3 +26,6 @@ ol{
 .important{
     color: darkmagenta;
 }
+img{
+    float: left;
+}
