@@ -29,3 +29,9 @@ ol{
 img{
     float: left;
 }
+.sidebar{
+    width: auto;
+    float: right;
+    background-color: darkturquoise;
+
+}
