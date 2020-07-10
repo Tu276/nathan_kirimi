@@ -1,5 +1,6 @@
 # Nathan Kirim
 # Portofolio landing page
+link https://github.com/Tu276/nathan_kirimi/deployments/activity_log?environment=github-pages
 #### HTML website Friday June 1O 2020
 #### By **KIRIMI NATHAN 
 #### feel free to add your name ... npleasedo something of course **
