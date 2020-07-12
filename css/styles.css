@@ -12,9 +12,11 @@ p{
 }
 ul{
     line-height: 40px;
+    font-weight: bold;
 }
 ol{
     line-height: 50px;
+    font-weight: bold;
 }
 .description {
     font-style: oblique;
