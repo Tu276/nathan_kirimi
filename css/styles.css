@@ -43,6 +43,63 @@ img{
     border: 2px solid rebeccapurple;
     padding: 6px;
     margin: 20px;
-    background-color: yellow;
+    background-color: #1F2833;
+    color: #C5C6C7;
 
+
+
+}
+img[src="images/me1.jpg"] {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #45A29E;
+}
+h1{
+    text-align: center;
+    color: #CEF0D4;
+    font-family: 'Rouge Script'. cursive;
+    font-size: 130px; 
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0 0 24px;
+    text-shadow: 1px 1px 2px #082b34;
+
+}body{
+    background-color: #0B0C10;
+
+}
+.mecontainer{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.mecontainer:hover::after{
+    opacity: 0.5;
+}
+.mecontainer:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+    width: 1100%
+    background-image: url("images/me1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.mecontainer_text{
+    padding: 10px;
+    background-color: yellow;
 }
