@@ -1,9 +1,9 @@
 h1{
-    color: hotpink;
+    color: #66FCF1;
     text-align: centre;
 }
 h2{
-    color: blue;
+    color: #66FCF1;
     font-style: oblique;
     text-align: center;
 }
@@ -23,13 +23,10 @@ ol{
    
 }
 .author{
-    color: chartreuse;
+    color: #66FCF1;
 }
 .important{
-    color: darkmagenta;
-}
-img{
-    float: left;
+    color: #66FCF1;
 }
 .sidebar{
     width: auto;
@@ -49,7 +46,7 @@ img{
 
 
 }
-img[src="images/me1.jpg"] {
+img[src="images/nameonsand.jpg"] {
     object-fit: contain;
     display: block;
     margin-left: auto;
@@ -69,37 +66,32 @@ h1{
     text-shadow: 1px 1px 2px #082b34;
 
 }body{
-    background-color: #0B0C10;
+    background-color: #0b0c10;
 
 }
-.mecontainer{
-    position: relative;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.me_container{
+    width: 53rem; 
+    height: 37rem; 
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(24% at 49% 35%); 
+    position: relative
 }
-.mecontainer:hover::after{
-    opacity: 0.5;
+.me_img {
+    height: 100%;
+    transform: translateX( 15rem);  
+    backface-visibility: hidden; 
 }
-.mecontainer:after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%
-    width: 1100%
-    background-image: url("images/me1.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    z-index: -1;
-    opacity: 1;
-    transition: opacity 300ms;
-}
-.mecontainer_text{
-    padding: 10px;
-    background-color: yellow;
-}
+.me_caption {
+    position: absolute; 
+    top: 54%; 
+    left: 44%; 
+    transform: translate(-42%, -3%); 
+    color: #66fcf1; 
+    text-transform: none;
+    font-style: italic;
+    font-size: 1.7rem; 
+    text-align: center;  
+    backface-visibility: hidden; 
+ }
+ 
